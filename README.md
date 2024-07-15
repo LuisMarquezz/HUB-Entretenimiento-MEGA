@@ -1,27 +1,38 @@
-# HubEntretenimiento
+# HUB-Entretenimiento-MEGA - Luis Angel Marquez Vargaz
+### Resumen del proyecto
+Este proyecto es un Centro de Entretenimiento creado con propósitos de evaluación para Mega. Se trata de una aplicación de una sola página construida en Angular, donde se presentan imagenes de peliculas.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+### ¿Cómo instalar?
+1. Copiar el link del repositorio para clonarlo
+2. Crear una carpeta y abrirla en VSC
+3. Abrir la terminal y ejecutar el comando con el vinculo git clone
+4. comando *cd entertainment-hub* 
+5. instala Angular CLI desde la terminal con el comando npm install -g @angular/cli*
+6. ejecutar comando npm install
+7. Si no lo tienen es necesario instalar bootstrap 
+7. Ejecuta el comando ng serve
+8. En el resultado de la terminal indica el puerto [localhost](http://localhost:4200/) , puedes copiarlo y pegarlo en el navegador, puedes presionar ctrl y dar click en el enlace o puedes agregarlo manualmente en la barra de direcciones del navegador
 
-## Development server
+### Proceso de desarrollo
+Estuve viendo videos y siguiendo los cursos gratuitos que nos proporcionaron realmente eran muy completos, lo primero que me di cuenta es que debo trabajar realmente todos los aspectos, primero quize hacer el login viendo todas las opcion me decidi por utilizar bootstrap utilizando un form, mi idea en general era hacer la base del login con una imagen de fondo y un titulo, para poder acceder a la pagina principal, pensando en futuro ya despues implementar el login completo con la BD, despues en la pagina principal tener las peliculas y realizar toda la logica que lleva junto con sus acciones.
+___
+### Sprint Review
+¿Qué salió bien? 
+* El aprendizaje que obtube, el poder lograr un avance aunque sea pequeño me alegra haber podido conseguir algo. 
+* Voy agarrando ritmo estoy seguro que con el tiempo podre implementar todas las funcionalidades y ponerme al dia con el sprint.
+* Entendi la estructura de un proyecto en Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+¿Qué puedo hacer diferente?
+Realmente todo; debo de pensar mejor la planeacion, el diseño, la codificacion, la logica, debo hacer una planeacion para ponerme al dia con los sprint atrasados, tengo realmente mucho que mejorar.
 
-## Code scaffolding
+¿Qué no salió bien?
+Mi principal problema ahorita fue ver como mostrar las imagenes, es algo que me a consumido algo de tiempo, por lo demas he tenido adversidades que he podido superar, pero como he mencionado todavia necesito mejorar mas, seguir aprendiendo y seguir implementando, jugar con el diseño y realmente hacer mucho trabajo.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+### Capturas de pantalla
+![login](./src/assets/capturas/login.png "login")
+Esta es la vista del login (Se que falta mucho diseño pero trabajare en eso.)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+![Home](./src/assets/capturas/home.png "Home")
+Esta es la del home, me hace falta acomodar los carteles con su informacion y mostrar la imagen.
+Se que parece poco pero realmente le he dedicado su tiempo, he aprendido mucho y estoy seguro que me podre poner al dia.

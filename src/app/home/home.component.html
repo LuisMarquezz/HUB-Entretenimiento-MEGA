@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <div class="fondo">
+        <div class="movies-container">
+            <app-card-movie *ngFor="let movie of movies" [movie]="movie"></app-card-movie>
+        </div>
+          
+    </div>
+</body>
+</html>
